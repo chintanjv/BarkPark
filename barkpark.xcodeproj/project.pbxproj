@@ -11,6 +11,17 @@
 		3636032C2F80DCCC0013857B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3636032B2F80DCCC0013857B /* ContentView.swift */; };
 		3636032E2F80DCCE0013857B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3636032D2F80DCCE0013857B /* Assets.xcassets */; };
 		363603312F80DCCE0013857B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 363603302F80DCCE0013857B /* Preview Assets.xcassets */; };
+		3636033E2F80DF4E0013857B /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3636033D2F80DF4E0013857B /* Theme.swift */; };
+		363603402F80DFCC0013857B /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3636033F2F80DFCC0013857B /* Models.swift */; };
+		363603422F80E01B0013857B /* MockData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 363603412F80E01B0013857B /* MockData.swift */; };
+		363603442F80E0530013857B /* ParkStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 363603432F80E0530013857B /* ParkStore.swift */; };
+		363603462F80E07D0013857B /* StarRatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 363603452F80E07D0013857B /* StarRatingView.swift */; };
+		363603482F80E0ED0013857B /* ParkCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 363603472F80E0ED0013857B /* ParkCardView.swift */; };
+		3636034A2F80E1520013857B /* MapExploreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 363603492F80E1520013857B /* MapExploreView.swift */; };
+		3636034C2F80E18D0013857B /* ParkDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3636034B2F80E18D0013857B /* ParkDetailView.swift */; };
+		3636034E2F80E1B60013857B /* RatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3636034D2F80E1B50013857B /* RatingView.swift */; };
+		363603502F80E1DF0013857B /* FilterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3636034F2F80E1DF0013857B /* FilterView.swift */; };
+		363603522F80E1FF0013857B /* FavoritesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 363603512F80E1FF0013857B /* FavoritesView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +30,18 @@
 		3636032B2F80DCCC0013857B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3636032D2F80DCCE0013857B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		363603302F80DCCE0013857B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		363603372F80DD9B0013857B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		3636033D2F80DF4E0013857B /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		3636033F2F80DFCC0013857B /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		363603412F80E01B0013857B /* MockData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockData.swift; sourceTree = "<group>"; };
+		363603432F80E0530013857B /* ParkStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkStore.swift; sourceTree = "<group>"; };
+		363603452F80E07D0013857B /* StarRatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarRatingView.swift; sourceTree = "<group>"; };
+		363603472F80E0ED0013857B /* ParkCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkCardView.swift; sourceTree = "<group>"; };
+		363603492F80E1520013857B /* MapExploreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapExploreView.swift; sourceTree = "<group>"; };
+		3636034B2F80E18D0013857B /* ParkDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkDetailView.swift; sourceTree = "<group>"; };
+		3636034D2F80E1B50013857B /* RatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingView.swift; sourceTree = "<group>"; };
+		3636034F2F80E1DF0013857B /* FilterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterView.swift; sourceTree = "<group>"; };
+		363603512F80E1FF0013857B /* FavoritesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,10 +74,15 @@
 		363603282F80DCCC0013857B /* barkpark */ = {
 			isa = PBXGroup;
 			children = (
+				3636033A2F80DE370013857B /* Views */,
+				363603392F80DE2B0013857B /* ViewModels */,
+				363603382F80DE180013857B /* Models */,
+				363603372F80DD9B0013857B /* Info.plist */,
 				363603292F80DCCC0013857B /* barkparkApp.swift */,
 				3636032B2F80DCCC0013857B /* ContentView.swift */,
 				3636032D2F80DCCE0013857B /* Assets.xcassets */,
 				3636032F2F80DCCE0013857B /* Preview Content */,
+				3636033D2F80DF4E0013857B /* Theme.swift */,
 			);
 			path = barkpark;
 			sourceTree = "<group>";
@@ -65,6 +93,45 @@
 				363603302F80DCCE0013857B /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		363603382F80DE180013857B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3636033F2F80DFCC0013857B /* Models.swift */,
+				363603412F80E01B0013857B /* MockData.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		363603392F80DE2B0013857B /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				363603432F80E0530013857B /* ParkStore.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		3636033A2F80DE370013857B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3636033C2F80DE810013857B /* Components */,
+				363603492F80E1520013857B /* MapExploreView.swift */,
+				3636034B2F80E18D0013857B /* ParkDetailView.swift */,
+				3636034D2F80E1B50013857B /* RatingView.swift */,
+				3636034F2F80E1DF0013857B /* FilterView.swift */,
+				363603512F80E1FF0013857B /* FavoritesView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		3636033C2F80DE810013857B /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				363603452F80E07D0013857B /* StarRatingView.swift */,
+				363603472F80E0ED0013857B /* ParkCardView.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +204,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3636034E2F80E1B60013857B /* RatingView.swift in Sources */,
+				363603482F80E0ED0013857B /* ParkCardView.swift in Sources */,
+				363603522F80E1FF0013857B /* FavoritesView.swift in Sources */,
+				3636034C2F80E18D0013857B /* ParkDetailView.swift in Sources */,
+				363603462F80E07D0013857B /* StarRatingView.swift in Sources */,
+				363603502F80E1DF0013857B /* FilterView.swift in Sources */,
+				3636033E2F80DF4E0013857B /* Theme.swift in Sources */,
 				3636032C2F80DCCC0013857B /* ContentView.swift in Sources */,
 				3636032A2F80DCCC0013857B /* barkparkApp.swift in Sources */,
+				363603442F80E0530013857B /* ParkStore.swift in Sources */,
+				3636034A2F80E1520013857B /* MapExploreView.swift in Sources */,
+				363603402F80DFCC0013857B /* Models.swift in Sources */,
+				363603422F80E01B0013857B /* MockData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,11 +348,14 @@
 				DEVELOPMENT_TEAM = F9AVYH2KG3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = barkpark/Info.plist;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "BarkPark needs your location to show nearby dog parks.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -282,9 +363,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.bpc.barkpark;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -299,11 +383,14 @@
 				DEVELOPMENT_TEAM = F9AVYH2KG3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = barkpark/Info.plist;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "BarkPark needs your location to show nearby dog parks.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -311,9 +398,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.bpc.barkpark;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
